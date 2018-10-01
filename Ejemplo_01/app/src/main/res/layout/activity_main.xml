@@ -19,8 +19,6 @@
             android:padding="20dp"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="16dp">
-
-
             <TextView
                 android:id="@+id/textView1"
                 android:layout_width="wrap_content"
@@ -36,10 +34,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="TODO"
-                app:srcCompat="@mipmap/star" />
+                app:srcCompat="@mipmap/conect" />
 
-            <!--  comentarios :v  -->
-
+            <!--  Layout de los 3 botones  -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -48,25 +45,42 @@
                 android:paddingTop="10dp">
 
                 <Button
-                    android:id="@+id/button1"
+                    android:id="@+id/buttonAMain"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="A" />
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/buttonBMain"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="B" />
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/buttonCMain"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="C" />
+
+            </LinearLayout>
+            <!--Layput del otro boton-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <Button
+                    android:id="@+id/buttonDMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="10dp"
+                    android:text="D" />
 
             </LinearLayout>
 

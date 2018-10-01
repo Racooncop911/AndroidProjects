@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Opciones">
+        <item>OP--01</item>
+        <item>OP--02</item>
+        <item>OP--03</item>
+        <item>OP--04</item>
+
+    </string-array>
+</resources>

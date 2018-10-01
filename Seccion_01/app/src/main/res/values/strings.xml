@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Seccion_01</string>
+    <string name="botoncin">Botoncin</string>
+    <string name="name1">Nombre</string>
+    <string name="TextView1">Hola Mundo!</string>
+    <string name="checkbox1">CheckBox</string>
+    <string name="switch1">Switch</string>
+    <string name="Boton1">boton1Main</string>
+</resources>
